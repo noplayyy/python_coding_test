@@ -1,4 +1,5 @@
-# 큰 수의 법칙  page.92
+# 큰 수의 법칙 page.92
+# 간단히 푸는 법
 
 n, m, k= map(int, input().split()) # N, M, K를 공백으로 구분해 입력
 
@@ -22,4 +23,4 @@ while True:
     result += second # 두번째로 큰 수를 한 번 더하기
     m -= 1 # 더할 때마다 1씩 빼기
 
-print(result)
+print(result) # 최종 답안 출력
