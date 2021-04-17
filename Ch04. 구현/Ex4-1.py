@@ -5,7 +5,7 @@ n  = int(input())
 x, y = 1, 1
 plans = input().split()
 
-# L, R, U, D에 따른 이동 방향
+# L, R, U, D에 따른 이동 방향 (x, y) (행, 열)
 mx = [0, 0, -1, 1]
 my = [-1, 1, 0, 0]
 move_types = ['L', 'R', 'U', 'D']
